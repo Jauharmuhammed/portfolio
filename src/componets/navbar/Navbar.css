@@ -1,0 +1,10 @@
+.navbar{
+    padding:3rem 0;
+    width: 100%;
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}

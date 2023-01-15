@@ -1,0 +1,6 @@
+main {
+  width: 100%;
+  max-width: 768px;
+  box-sizing: border-box;
+  padding: 0 1.9rem;
+}
