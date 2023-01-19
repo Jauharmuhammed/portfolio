@@ -4,7 +4,7 @@ import Tools from "./Tools";
 const Hero = () => {
     return (
         <section className="w-full flex flex-col my-10">
-            <h1 className="text-6xl mt-20 mb-5 tracking-tighter">
+            <h1 className="text-6xl  mb-5 tracking-tighter">
                 Hi, I'm Jauhar Muhammed
             </h1>
             <p className="text-justify">
