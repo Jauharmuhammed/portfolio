@@ -4,12 +4,12 @@
 
 @font-face {
     font-family: quincy-cf;
-    src: url("./assets/fonts/Quincy-CF-Regular.ttf");
+    src: url("./assets/fonts/QuincyCF-Regular.ttf");
     font-weight: 400;
 }
 @font-face {
     font-family: quincy-cf;
-    src: url("./assets/fonts/Fontspring-DEMO-quincycf-bold.otf");
+    src: url("./assets/fonts/QuincyCF-Bold.ttf");
     font-weight: 600;
 }
 
@@ -71,4 +71,12 @@ h6 {
     -webkit-column-count: 4;
     -moz-column-count: 4;
     column-count: 4;
+}
+
+@media screen {
+    .list-column {
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+    }
 }
