@@ -1,15 +1,18 @@
-import "./App.css";
-import Hero from "./componets/hero/Hero";
-import { Navbar } from "./componets/navbar/Navbar";
+import Hero from "./componets/Hero";
+import { Navbar } from "./componets/Navbar";
 import Sidebar from "./componets/sidebar/Sidebar";
 
 function App() {
     return (
-        <main>
+        <>
             <Sidebar />
-            <Navbar/>
-            <Hero/>
-        </main>
+            <main className="flex justify-center w-full">
+                <container className='flex flex-col w-full max-w-7xl sm:px-24 md:px-36 lg:px-56 xl:px-72'>
+                    <Navbar />
+                    <Hero />
+                </container>
+            </main>
+        </>
     );
 }
 

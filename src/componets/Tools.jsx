@@ -41,7 +41,7 @@ export const tools = [
     },
     {
         name: "Django REST",
-        icon: <img className="djangoREST" src={DjangoREST} alt="" />,
+        icon: <img className="w-6" src={DjangoREST} alt="" />,
     },
     {
         name: "JavaScript",
@@ -130,10 +130,10 @@ import React from "react";
 
 const Tools = () => {
     return (
-        <ul className="tools">
+        <ul className="list-none list-column">
             {tools.map((obj) => (
-                <li key={obj.name}>
-                    <span>
+                <li key={obj.name} className='flex gap-2 mb-1.5'>
+                    <span className="w-6">
                         {obj.icon}
                     </span>
                     <span>{obj.name}</span>

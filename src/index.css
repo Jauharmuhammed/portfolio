@@ -1,9 +1,19 @@
-:root {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 16px;
-    line-height: 24px;
-    font-weight: 400;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
+@font-face {
+    font-family: quincy-cf;
+    src: url("./assets/fonts/Quincy-CF-Regular.ttf");
+    font-weight: 400;
+}
+@font-face {
+    font-family: quincy-cf;
+    src: url("./assets/fonts/Fontspring-DEMO-quincycf-bold.otf");
+    font-weight: 600;
+}
+
+:root {
     color-scheme: light dark;
     color: rgba(255, 255, 255, 0.87);
     background-color: #1e1e1e;
@@ -23,9 +33,10 @@
 }
 
 body {
-    display: flex;
-    justify-content: center;
     min-height: 100vh;
+    font-family: quincy-cf, serif, sans-serif;
+    font-size: 1.25rem;
+    line-height: 24px;
 }
 
 @media (prefers-color-scheme: light) {
@@ -39,4 +50,25 @@ body {
     button {
         background-color: #f9f9f9;
     }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: quincy-cf, serif, sans-serif;
+    font-weight: 600;
+}
+
+.font-regular {
+    font-weight: 400;
+    font-size: larger;
+}
+
+.list-column {
+    -webkit-column-count: 4;
+    -moz-column-count: 4;
+    column-count: 4;
 }

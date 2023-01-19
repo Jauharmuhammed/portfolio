@@ -1,10 +1,9 @@
 import React from 'react'
-import './Navbar.css'
 
 export const Navbar = () => {
   return (
-    <nav className='navbar'>
-        <ul>
+    <nav className='py-10'>
+        <ul className='list-none flex gap-2'>
             <li>Home</li>
             <li>Projects</li>
             <li>Contact</li>
