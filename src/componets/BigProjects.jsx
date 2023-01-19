@@ -11,7 +11,7 @@ const BigProjects = () => {
                     </h4>
                     <div className="flex justify-between">
                         <p>Fully functional e-commerce website for books</p>
-                        <a target='_blank' href="https://github.com/Jauharmuhammed/readable-bookstore">Visit site</a>
+                        <a className="whitespace-pre" target='_blank' href="https://github.com/Jauharmuhammed/readable-bookstore">Visit site</a>
                     </div>
                 </div>
             </a>
@@ -22,7 +22,7 @@ const BigProjects = () => {
                     </h4>
                     <div className="flex justify-between">
                         <p>Social network like platform to showcase your works</p>
-                        <a target='_blank' href="https://github.com/Jauharmuhammed/showyourwork">Github repo</a>
+                        <a className="whitespace-pre" target='_blank' href="https://github.com/Jauharmuhammed/showyourwork">Github repo</a>
                     </div>
                 </div>
             </a>
