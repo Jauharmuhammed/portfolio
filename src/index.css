@@ -30,6 +30,7 @@
 * {
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -78,5 +79,9 @@ h6 {
         -webkit-column-count: 2;
         -moz-column-count: 2;
         column-count: 2;
+    }
+    body {
+        font-size: 1rem;
+        line-height: 24px;
     }
 }
