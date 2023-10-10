@@ -2,6 +2,7 @@ import React from "react";
 import github from "../assets/github.svg";
 import linkedin from "../assets/linkedin.svg";
 import twitter from "../assets/twitter.svg";
+import { FaEnvelope } from "react-icons/fa";
 
 const Sidebar = () => {
     return (
@@ -27,9 +28,8 @@ const Sidebar = () => {
                     <li>
                         <a
                             className="relative"
-                            target="_blank"
-                            href="https://twitter.com/Jauharmuhammed_">
-                            <img className="text-white w-5" src={twitter} alt="github" />
+                            href="mailto:mail@jauharmuhammed.com">
+                            <FaEnvelope size={16}/>
                         </a>
                     </li>
                 </ul>

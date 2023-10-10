@@ -6,7 +6,7 @@ export default [
         banner: "src/assets/images/BeyondGPT-banner.png",
         description:
             "A ChatGPT clone with enhanced features employing OpenAI API. It’s a full-fledged AI SaaS application with subscription based usage, powered by the Vercel AI SDK for efficient edge-runtime execution, Clerk-auth, and crisp chat support.",
-        tools: ["Next.js", "Typescript", "Prisma", "OpenAI Api", "Stripe", "Clerk-auth", "Shadcn-UI", "TailwindCSS"],
+        tools: ["Next.js", "Typescript", "Prisma", "Shadcn-UI", "OpenAI Api", "Stripe", "Clerk",  "Crisp-chat"],
     },
     {
         title: "Readable Bookstore",

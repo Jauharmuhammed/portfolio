@@ -7,6 +7,7 @@ import {
     FaGithub,
     FaPython,
     FaSass,
+    FaGitlab,
 } from "react-icons/fa";
 import {
     SiDjango,
@@ -21,15 +22,21 @@ import {
     SiRedux,
     SiTailwindcss,
     SiVisualstudiocode,
+    SiNextdotjs,
+    SiTypescript,
+    SiJirasoftware,
 } from "react-icons/si";
 import { IoLogoCss3 } from "react-icons/io";
 import { IoLogoFigma, IoLogoFirebase } from "react-icons/io5";
-import DjangoREST from '../assets/DjangoREST.svg'
 
 export const tools = [
     {
-        name: "ReactJs",
+        name: "React.js",
         icon: <FaReact />,
+    },
+    {
+        name: "Next.js",
+        icon: <SiNextdotjs/>,
     },
     {
         name: "Python",
@@ -40,12 +47,12 @@ export const tools = [
         icon: <SiDjango />,
     },
     {
-        name: "Django REST",
-        icon: <img className="w-6" src={DjangoREST} alt="" />,
-    },
-    {
         name: "JavaScript",
         icon: <SiJavascript />,
+    },
+    {
+        name: "Typecript",
+        icon: <SiTypescript />,
     },
     {
         name: "HTML",
@@ -56,7 +63,7 @@ export const tools = [
         icon: <IoLogoCss3 />,
     },
     {
-        name: "Redux",
+        name: "Redux.js",
         icon: <SiRedux />,
     },
     {
@@ -96,26 +103,21 @@ export const tools = [
         icon: <IoLogoFirebase />,
     },
     {
-        name: "Netlify",
-        icon: <SiNetlify />,
+        name: "Gitlab",
+        icon: <FaGitlab />,
     },
     {
         name: "VS Code",
         icon: <SiVisualstudiocode />,
     },
     {
-        name: "macOS",
-        icon: <SiMacos />,
+        name: "Jira",
+        icon: <SiJirasoftware />,
     },
     {
         name: "AWS",
         icon: <FaAws />,
     },
-    {
-        name: "Canva",
-        icon: <SiCanva />,
-    },
-    
     {
         name: "Docker",
         icon: <FaDocker />,
