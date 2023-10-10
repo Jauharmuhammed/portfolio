@@ -18,7 +18,7 @@ const BigProjects = () => {
                     href={project.url}
                     className="flex flex-col-reverse lg:flex-row lg:items-center group p-5 md:p-8 sm:-mx-8 rounded-md bg-neutral-100 dark:bg-neutral-800 text-white gap-4 cursor-alias">
                     <div className="w-full flex flex-col gap-5 ">
-                        <div className="flex gap-3 items-center text-2xl md:text-3xl ">
+                        <div className="flex gap-3 justify-between md:justify-start items-center text-2xl md:text-3xl ">
                             <h4
                                 className={`text-transparent bg-clip-text tracking-tighter ${gradients[index]}`}>
                                 {project.title}
