@@ -1,6 +1,7 @@
 import React from "react";
 import miniProjects from "../data/mini-projects";
 import { FaExternalLinkAlt, FaGithubSquare } from "react-icons/fa";
+import { BsBoxArrowUpRight } from "react-icons/bs";
 
 const MiniProjects = () => {
     return (
@@ -8,10 +9,19 @@ const MiniProjects = () => {
             {miniProjects.map((project) => (
                 <div key={project.title} className="space-y-2 relative group p-5 md:p-0">
                     <div className="flex justify-between items-center">
-                        <a target="_blank" href={project.url} className="flex gap-3 items-center">
-                            <h4 className="text-2xl">{project.title}</h4>{" "}
-                            {project.url && <FaExternalLinkAlt size={14} />}
-                        </a>
+                        {project.url ? (
+                            <a
+                                target="_blank"
+                                href={project.url}
+                                className="flex gap-3 items-center">
+                                <h4 className="text-2xl">{project.title}</h4>{" "}
+                                <BsBoxArrowUpRight size={16} className="mb-1" />
+                            </a>
+                        ) : (
+                            <div className="flex gap-3 items-center">
+                                <h4 className="text-2xl">{project.title}</h4>{" "}
+                            </div>
+                        )}
                         <a target="_blank" href={project.github_url} className="">
                             <span className="px-2 py-1 rounded-md text-xs font-mono bg-gray-300 text-stone-900">
                                 Code

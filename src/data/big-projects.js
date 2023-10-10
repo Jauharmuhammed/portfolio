@@ -1,7 +1,7 @@
 export default [
     {
         title: "BeyondGPT AI Sass",
-        url: "https://beyondgpt.vercel.com",
+        url: "https://beyondgpt.vercel.app",
         github_url: "https://github.com/Jauharmuhammed/beyondgpt-ai-sass",
         banner: "/images/beyondgpt-banner.png",
         description:

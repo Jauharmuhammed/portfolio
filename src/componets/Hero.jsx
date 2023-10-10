@@ -1,10 +1,11 @@
 import React from "react";
 import Tools from "./Tools";
+import { AiOutlineArrowRight } from "react-icons/ai";
 
 const Hero = () => {
     return (
         <section className="w-full flex flex-col my-10 md:my-32">
-            <h1 className="text-3xl md:text-[3.3rem]  mb-5 tracking-tighter">
+            <h1 className="text-[2rem] md:text-[3.3rem]  md:mb-5 tracking-tighter">
                 <span className="text-xl md:text-[2.2rem]">Hi, I'm</span> &nbsp;{" "}
                 <span className="bg-gradient-to-r from-sky-500 via-violet-600 to-pink-600 text-transparent bg-clip-text">
                     Jauhar Muhammed
@@ -17,8 +18,8 @@ const Hero = () => {
                 </a>
             </p>
             <a target="_blank" className="w-fit" href="https://www.linkedin.com/in/jauharmuhammed/">
-                <button className="px-4 py-2 rounded-md backdrop-blur-sm bg-transparent border mt-6 hover:bg-slate-100/5">
-                    Let Connect
+                <button className="pl-4 pr-3 py-3 group flex gap-3 items-center rounded-md backdrop-blur-sm bg-transparent border mt-6 hover:bg-slate-100/5">
+                    <span>Let's Connect</span> <AiOutlineArrowRight className="-translate-x-1 group-hover:translate-x-0 transition-transform duration-300" size={16}/>
                 </button>
             </a>
             <h2 className="text-2xl md:text-4xl mt-24 mb-5">About Me</h2>
