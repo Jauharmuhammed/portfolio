@@ -20,6 +20,9 @@
     background: linear-gradient(to right, #181818, #1b1b1b),
         url(https://grainy-gradients.vercel.app/noise.svg);
 
+    background-image: radial-gradient(hsla(0, 0%, 100%, 0.255) 1px, transparent 0);
+    background-size: 2rem 2rem;
+
     font-synthesis: none;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
