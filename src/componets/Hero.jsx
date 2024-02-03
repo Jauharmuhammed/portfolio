@@ -13,8 +13,8 @@ const Hero = () => {
             </h1>
             <p className="">
                 Web dev & designer, &nbsp; currently{" "}
-                <a className="underline underline-offset-4" target="_blank" href="https://farms.io">
-                    @Farms.io
+                <a className="underline underline-offset-4" target="_blank" href="https://fibr.ai">
+                    @Fibr.ai
                 </a>
                 &nbsp;🌱
             </p>
