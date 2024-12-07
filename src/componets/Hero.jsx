@@ -12,11 +12,7 @@ const Hero = () => {
                 </span>
             </h1>
             <p className="">
-                Web dev & designer, &nbsp; currently{" "}
-                <a className="underline underline-offset-4" target="_blank" href="https://fibr.ai">
-                    @Fibr.ai
-                </a>
-                &nbsp;🌱
+                Web dev & designer;
             </p>
             <a target="_blank" className="w-fit" href="https://www.linkedin.com/in/jauharmuhammed/">
                 <button className="pl-4 pr-3 py-3 group flex gap-3 items-center rounded-md backdrop-blur-sm bg-transparent border mt-6 hover:bg-slate-100/5">
